@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Input Types</title>
+</head>
+<body>
+  <!-- SELECT BOXES -->
+  <select class="form-control" id="beverage">
+    <option value="1">Coffee</option>
+    <option value="2">Tea</option>
+    <option value="3">Kombucha</option>
+    <option value="4">Water</option>
+  </select>
+
+  <!-- RADIO BUTTONS  -->
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="chocolate" checked>
+      Chocolate
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="vanilla">
+      Vanilla
+    </label>
+  </div>
+  <div>
+    <label>
+      <input type="radio" name="flavor" value="cookiesandcream">
+      Cookies & Cream
+    </label>
+  </div>
+
+  <!-- DATE -->
+  <div class="form-group">
+    <label for="born">date of birth:</label>
+    <input id="born" class="form-control" type="date">
+  </div>
+
+  <!-- COLOR -->
+  <div class="form-group">
+     <label for="color">What is your favorite color?</label>
+     <input id="color" class="form-control" type="color">
+  </div>
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
